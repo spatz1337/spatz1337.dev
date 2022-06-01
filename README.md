@@ -1,6 +1,6 @@
-# 🌍 ven.earth
+# itsnebula.net
 
-My personal site created with **Next.js** and **TailwindCSS**.
+My personal site forked from [ven.earth](https://ven.earth) created with **Next.js** and **TailwindCSS**.
 
 ## Getting Started
 
@@ -29,4 +29,4 @@ The easiest way to deploy a Next.js app is to use the [Vercel Platform](https://
 
 Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fven%2Fven-earth&env=NPM_RC,NEXT_PUBLIC_LASTFM_API_KEY,WEATHER_API_KEY)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fitsnebulalol%2Fitsnebula.net&env=NEXT_PUBLIC_LASTFM_API_KEY)
