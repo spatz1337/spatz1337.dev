@@ -9,17 +9,17 @@ module.exports = {
     return [
       {
         source: '/github',
-        destination: 'https://github.com/ven',
+        destination: 'https://github.com/itsnebulalol',
         permanent: true,
       },
       {
         source: '/twitter',
-        destination: 'https://twitter.com/venolol',
+        destination: 'https://twitter.com/itsnebulalol',
         permanent: true,
       },
       {
         source: '/discord',
-        destination: 'https://discord.com/users/204616460797083648',
+        destination: 'https://dsc.gg/modsplus',
         permanent: true,
       },
     ]

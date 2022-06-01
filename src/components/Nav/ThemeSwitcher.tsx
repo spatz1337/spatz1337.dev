@@ -1,4 +1,3 @@
-import useSound from 'use-sound'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useTheme } from 'next-themes'
 import { useEffect, useState } from 'react'
@@ -7,16 +6,11 @@ export const ThemeSwitcher = () => {
   const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
 
-  const [playOn] = useSound('/sound/switch-on.mp3')
-  const [playOff] = useSound('/sound/switch-off.mp3')
-
   const toggle = () => {
     if (theme === 'dark') {
       setTheme('light')
-      playOn()
     } else {
       setTheme('dark')
-      playOff()
     }
   }
 
@@ -33,7 +27,7 @@ export const ThemeSwitcher = () => {
     >
       <FontAwesomeIcon
         className="h-4 w-4 text-gray-800 dark:text-gray-200"
-        icon={theme === 'light' ? ['far', 'moon'] : ['fad', 'sun']}
+        icon={theme === 'light' ? ['far', 'moon'] : ['far', 'sun']}
       />
     </button>
   )

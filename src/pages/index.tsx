@@ -8,7 +8,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { IconName } from '@fortawesome/fontawesome-svg-core'
 import { Account, AccountData } from 'data/accounts'
 import { NowPlayingCard } from 'components/NowPlayingCard'
-import { Weather } from 'components/Weather'
 const Time = dynamic(() => import('components/Time'), {
   ssr: false,
 })
@@ -32,7 +31,7 @@ const Home = () => {
   const { theme } = useTheme()
 
   const copyEmail = () => {
-    navigator.clipboard.writeText('v@ven.earth')
+    navigator.clipboard.writeText('me@itsnebula.net')
     theme === 'dark'
       ? toast.success('Copied email to clipboard!', {
           style: {
@@ -45,16 +44,12 @@ const Home = () => {
 
   return (
     <>
-      <GenericMeta
-        title="ven.earth"
-        description="19-year-old software developer and student from the United Kingdom."
-      />
+      <GenericMeta title="Nebula" description="Passionate developer from the United States." />
 
       <MainLayout margin={false}>
-        <h1 className="text-6xl font-bold">ven</h1>
+        <h1 className="text-6xl font-bold">Nebula</h1>
         <p className="text-lg text-gray-600 dark:text-gray-400 max-w-sm mt-2">
-          19-year-old <span className="font-semibold">software developer</span> and student from the
-          United Kingdom.
+          Passionate developer from the United States.
         </p>
         <div className="grid grid-flow-col w-48 mt-3 text-lg">
           {AccountData.map((account) => (
@@ -69,7 +64,6 @@ const Home = () => {
         </div>
         <div className="grid my-8 gap-2">
           <Time />
-          <Weather />
         </div>
         <div>
           <NowPlayingCard />

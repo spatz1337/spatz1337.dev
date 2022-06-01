@@ -8,7 +8,7 @@ import readingTime from 'reading-time'
 import rehypePrism from '@mapbox/rehype-prism'
 import matter from 'gray-matter'
 import Image from 'next/image'
-import VenImage from '@public/img/ven.jpg'
+import NebulaImage from '@public/img/nebula.png'
 import { GetStaticProps, InferGetStaticPropsType } from 'next'
 import { ParsedUrlQuery } from 'querystring'
 
@@ -21,15 +21,15 @@ export default function Posts({
       <div className="mt-6 flex flex-row items-center">
         <Image
           className="rounded-full"
-          src={VenImage}
-          alt="ven profile picture"
+          src={NebulaImage}
+          alt="nebula profile picture"
           width={24}
           height={24}
         />
         <p className="ml-2">
           <a
             className="focus:outline-none transition duration-300 ease-in-out hover:text-indigo-900 dark:hover:text-indigo-200"
-            href="https://twitter.com/venolol"
+            href="https://twitter.com/itsnebulalol"
             rel="noopener noreferrer"
             target="_blank"
           >
