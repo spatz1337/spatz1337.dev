@@ -15,4 +15,18 @@ export const ProjectData: Project[] = [
     href: 'https://github.com/itsnebulalol/itsnebula.net',
     icon: ['fas', 'home'],
   },
+  {
+    title: 'zyno.us',
+    description:
+      "The privacy respecting self hosted services.",
+    href: 'https://zyno.us',
+    icon: ['fas', 'wifi'],
+  },
+  {
+    title: 'last.fm-discord',
+    description:
+      "Show your last.fm playing status on Discord.",
+    href: 'https://github.com/itsnebulalol/last.fm-discord',
+    icon: ['fas', 'music'],
+  },
 ]

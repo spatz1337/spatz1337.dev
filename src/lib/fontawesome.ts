@@ -8,6 +8,8 @@ import {
   faHome,
   faCaretRight,
   faLink,
+  faWifi,
+  faMusic,
 } from '@fortawesome/free-solid-svg-icons'
 import { faClock, faSun, faMoon } from '@fortawesome/free-regular-svg-icons'
 
@@ -21,7 +23,8 @@ config.autoAddCss = false
 library.add(faTwitter, faGithub, faDiscord, faApple)
 
 // Import @fortawesome/free-solid-svg-icons
-library.add(faEnvelope, faSearch, faCalendarDay, faSolidCaretDown, faHome, faCaretRight, faLink)
+library.add(faEnvelope, faSearch, faCalendarDay, faSolidCaretDown, faHome, 
+  faCaretRight, faLink, faWifi, faMusic)
 
 // Import @fortawesome/free-regular-svg-icons
 library.add(faClock, faSun, faMoon)
