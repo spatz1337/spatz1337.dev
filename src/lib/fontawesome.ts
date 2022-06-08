@@ -10,6 +10,7 @@ import {
   faLink,
   faWifi,
   faMusic,
+  faCoins,
 } from '@fortawesome/free-solid-svg-icons'
 import { faClock, faSun, faMoon } from '@fortawesome/free-regular-svg-icons'
 
@@ -24,7 +25,7 @@ library.add(faTwitter, faGithub, faDiscord, faApple)
 
 // Import @fortawesome/free-solid-svg-icons
 library.add(faEnvelope, faSearch, faCalendarDay, faSolidCaretDown, faHome, 
-  faCaretRight, faLink, faWifi, faMusic)
+  faCaretRight, faLink, faWifi, faMusic, faCoins)
 
 // Import @fortawesome/free-regular-svg-icons
 library.add(faClock, faSun, faMoon)

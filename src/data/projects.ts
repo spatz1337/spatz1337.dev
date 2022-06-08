@@ -29,4 +29,11 @@ export const ProjectData: Project[] = [
     href: 'https://github.com/itsnebulalol/last.fm-discord',
     icon: ['fas', 'music'],
   },
+  {
+    title: 'Tabi',
+    description:
+      "The fast and low-fee'd cryptocurrency on Polygon.",
+    href: 'https://tabi.itsnebula.net',
+    icon: ['fas', 'coins'],
+  },
 ]
