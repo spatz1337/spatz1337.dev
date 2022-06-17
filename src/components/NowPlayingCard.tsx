@@ -14,7 +14,7 @@ export const NowPlayingCard = () => {
   return (
     <FadeIn>
       <a
-        href={lastFM.status === 'playing' ? lastFM.song.url : 'https://music.apple.com/'}
+        href={lastFM.status === 'playing' ? lastFM.song.url : 'https://last.fm/itsnebulalol'}
         rel="noopener noreferrer"
         target="_blank"
         className="focus:outline-none transition duration-300 ease-in-out transform hover:scale-105 p-3 rounded-md border border-gray-800 shadow flex flex-row max-w-sm"
