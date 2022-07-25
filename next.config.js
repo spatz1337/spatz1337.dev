@@ -19,7 +19,12 @@ module.exports = {
       },
       {
         source: '/discord',
-        destination: 'https://dsc.gg/modsplus',
+        destination: 'https://dsc.gg/nebulapalace',
+        permanent: true,
+      },
+      {
+        source: '/permasigner',
+        destination: 'https://github.com/itsnebulalol/permasigner',
         permanent: true,
       },
     ]
