@@ -30,10 +30,10 @@ export const ProjectData: Project[] = [
     icon: ['fas', 'music'],
   },
   {
-    title: 'Tabi',
+    title: 'Permasigner',
     description:
-      "The fast and low-fee'd cryptocurrency on Polygon.",
-    href: 'https://tabi.itsnebula.net',
-    icon: ['fas', 'coins'],
+      "Permanently sign IPAs on jailbroken iDevices (persists on stock).",
+    href: 'https://github.com/itsnebulalol/permasigner',
+    icon: ['fas', 'pen'],
   },
 ]
