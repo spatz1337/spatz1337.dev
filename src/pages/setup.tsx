@@ -17,10 +17,10 @@ export const ComponentText = ({ type, href, name }: Component) => {
 
 const Setup = () => {
   return (
-    <MainLayout title="Setup" description="Information about my setup.">
+    <MainLayout title="1337 Nedir?" description="1337 yani LEET anlamına gelen hacker alfabesi">
       <article className="max-w-none w-full prose prose-lg dark:prose-dark">
         <div>
-          <h3>PC</h3>
+          <h3></h3>
           <ul>
             {ComponentData.map((component) => (
               <ComponentText
@@ -33,14 +33,14 @@ const Setup = () => {
           </ul>
         </div>
         <div>
-          <h3>Laptop</h3>
+          <h3>Discord</h3>
           <div className="flex flex-col gap-y-3">
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.apple.com/macbook-pro-13/"
+              href="https://discord.gg/gayrimesru"
             >
-              Apple MacBook Pro 13" (M1)
+              My Discord Server (1337)
             </a>
           </div>
         </div>
