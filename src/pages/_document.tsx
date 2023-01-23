@@ -16,12 +16,11 @@ class AppDocument extends Document {
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
           <link rel="manifest" href="/site.webmanifest" />
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#FFFFFF" />
-          <meta property="og:url" content="https://itsnebula.net" />
-          <meta property="og:site_name" content="itsnebula.net" />
-          <meta property="og:image" content="/img/nebula.png" />
+          <meta property="og:url" content="https://spatz1337.dev" />
+          <meta property="og:site_name" content="spatz1337.dev" />
+          <meta property="og:image" content="/img/spatz.png" />
           <meta name="theme-color" content="#000000" />
           <meta name="twitter:card" content="summary" />
-          <meta name="twitter:image" content="https://itsnebula.net/img/nebula.png" />
         </Head>
         <body className="bg-white dark:bg-black text-black dark:text-white">
           <Main />
