@@ -10,15 +10,11 @@ export interface Account {
 export const AccountData: Account[] = [
   {
     name: 'GitHub',
-    href: '/github',
-  },
-  {
-    name: 'Twitter',
-    href: '/twitter',
+    href: 'https://github.com/spatz1337',
   },
   {
     name: 'Discord',
-    href: '/discord',
+    href: 'https://discord.com/users/934593001865510982',
   },
   {
     name: 'Email',
