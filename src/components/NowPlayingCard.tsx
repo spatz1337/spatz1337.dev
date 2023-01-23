@@ -46,7 +46,8 @@ export const NowPlayingCard = () => {
               : 'Not listening to anything'}
           </div>
           <p className="text-xxs">
-            <FontAwesomeIcon className="fill-current" icon={['fab', 'spotify']} /> Spotify
+            <FontAwesomeIcon className="fill-current text-green-500" icon={['fab', 'spotify']} />{' '}
+            Spotify
           </p>
         </div>
       </a>
