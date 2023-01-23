@@ -14,7 +14,7 @@ export const RouteData: Route[] = [
     icon: ['fas', 'home'],
   },
   {
-    name: 'projects',
+    name: 'info',
     href: '/projects',
   },
   {
@@ -22,7 +22,7 @@ export const RouteData: Route[] = [
     href: '/blog',
   },
   {
-    name: 'setup',
+    name: '1337',
     href: '/setup',
     type: 'dropdown',
   },
