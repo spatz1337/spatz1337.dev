@@ -45,7 +45,7 @@ const Home = () => {
   return (
     <>
       <a rel="me" href="https://discord.com/users/934593001865510982" style={{"display": "none"}}></a>
-      <GenericMeta title="Spatz" description="CISSP & Cyber Sec# from the Deutschland." />
+      <GenericMeta title="Eren" description="Software Developer & Cyber Sec#" />
 
       <MainLayout margin={false}>
         <h1 className="text-6xl font-bold">Eren</h1>
