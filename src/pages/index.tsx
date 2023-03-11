@@ -31,7 +31,7 @@ const Home = () => {
   const { theme } = useTheme()
 
   const copyEmail = () => {
-    navigator.clipboard.writeText('legal@spatz1337.dev')
+    navigator.clipboard.writeText('erensezen1337@gmail.com')
     theme === 'dark'
       ? toast.success('Copied email to clipboard!', {
           style: {
@@ -44,13 +44,13 @@ const Home = () => {
 
   return (
     <>
-      <a rel="me" href="https://discord.com/users/934593001865510982" style={{"display": "none"}}></a>
-      <GenericMeta title="Eren" description="Software Developer & Cyber Sec#" />
+      <a rel="me" href="https://procursus.social/@nebula" style={{"display": "none"}}></a>
+      <GenericMeta title="Eren Sezen" description="Cyber Sec# and Software Developer from Turkey." />
 
       <MainLayout margin={false}>
         <h1 className="text-6xl font-bold">Eren</h1>
         <p className="text-lg text-gray-600 dark:text-gray-400 max-w-sm mt-2">
-        Software Developer & Cyber Sec# 
+          Cyber Sec# and Software Developer from Turkey.
         </p>
         <div className="grid grid-flow-col w-48 mt-3 text-lg">
           {AccountData.map((account) => (
