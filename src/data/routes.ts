@@ -19,7 +19,7 @@ export const RouteData: Route[] = [
   },
   {
     name: 'eren',
-    href: '/blog',
+    href: '/eren',
   },
   {
     name: 'dont click',
