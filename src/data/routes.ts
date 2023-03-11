@@ -23,7 +23,7 @@ export const RouteData: Route[] = [
   },
   {
     name: 'dont click',
-    href: '/setup',
+    href: 'https://i.hizliresim.com/3yhoowo.gif',
     type: 'dropdown',
   },
 ]
