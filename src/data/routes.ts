@@ -14,15 +14,15 @@ export const RouteData: Route[] = [
     icon: ['fas', 'home'],
   },
   {
-    name: 'info',
+    name: 'projects',
     href: '/projects',
   },
   {
-    name: 'blog',
+    name: 'eren',
     href: '/blog',
   },
   {
-    name: '1337',
+    name: 'dont click',
     href: '/setup',
     type: 'dropdown',
   },
