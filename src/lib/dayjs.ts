@@ -5,7 +5,7 @@ import advancedFormat from 'dayjs/plugin/advancedFormat'
 import customParseFormat from 'dayjs/plugin/customParseFormat'
 import timezone from 'dayjs/plugin/timezone'
 
-dayjs.extend(mt6)
+dayjs.extend(utc)
 dayjs.extend(isBetween)
 dayjs.extend(advancedFormat)
 dayjs.extend(customParseFormat)
