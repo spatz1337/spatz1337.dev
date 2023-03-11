@@ -14,12 +14,7 @@ module.exports = {
       },
       {
         source: '/twitter',
-        destination: 'https://twitter.com/spatz1337',
-        permanent: true,
-      },
-      {
-        source: '/discord',
-        destination: 'https://discord.com/users/934593001865510982',
+        destination: 'https://twitter.com/erennszn',
         permanent: true,
       },
       {
