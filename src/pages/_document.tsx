@@ -16,9 +16,9 @@ class AppDocument extends Document {
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
           <link rel="manifest" href="/site.webmanifest" />
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#FFFFFF" />
-          <meta property="og:url" content="https://spatz1337.dev" />
-          <meta property="og:site_name" content="spatz1337.dev" />
-          <meta property="og:image" content="/img/spatz.png" />
+          <meta property="og:url" content="https://erensezen.com.tr" />
+          <meta property="og:site_name" content="erensezen.com.tr" />
+          <meta property="og:image" content="/img/nebula.png" />
           <meta name="theme-color" content="#000000" />
           <meta name="twitter:card" content="summary" />
         </Head>
