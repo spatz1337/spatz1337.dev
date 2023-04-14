@@ -23,7 +23,7 @@ export const RouteData: Route[] = [
   },
   {
     name: 'donate',
-    href: '/donate',
+    href: '/donate.html',
     type: 'dropdown',
   },
 ]
