@@ -22,8 +22,8 @@ export const RouteData: Route[] = [
     href: '/eren',
   },
   {
-    name: 'dont click',
-    href: 'https://i.hizliresim.com/3yhoowo.gif',
+    name: 'donate',
+    href: '/pay.html',
     type: 'dropdown',
   },
 ]
