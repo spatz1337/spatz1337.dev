@@ -44,7 +44,7 @@ const Home = () => {
 
   return (
     <>
-      <a rel="me" href="https://procursus.social/@nebula" style={{"display": "none"}}></a>
+      <a rel="me" href="https://instagram.com/erennszn" style={{"display": "none"}}></a>
       <GenericMeta title="Eren Sezen" description="Cyber Sec# and Software Developer from Turkey." />
 
       <MainLayout margin={false}>
