@@ -8,7 +8,7 @@ const Blog = ({ allPostsData }: InferGetStaticPropsType<typeof getStaticProps>) 
   return (
     <MainLayout
       title="hi"
-      description="contact for @erennszn"
+      description="contact for @erensezen48"
     >
       <div className="mt-8 grid gap-8">
         {allPostsData.map(({ slug, date, title, excerpt }) => {
