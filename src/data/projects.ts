@@ -13,7 +13,7 @@ export const ProjectData: Project[] = [
     description:
       "you met this boy % i work on c#, c++, async, js, php % i write code and it brings money",
     href: 'https://github.com/spatz1337/spatz',
-    icon: ['fas', 'wifi'],
+    icon: ['fas', 'github-square'],
   },
   {
     title: 'Spotify',
@@ -21,5 +21,12 @@ export const ProjectData: Project[] = [
       "spotify artist page",
     href: 'https://open.spotify.com/artist/281tNutqcHbRPVf1qEjeAR?si=b10da26933424969',
     icon: ['fas', 'music'],
+  },
+   {
+    title: 'Instagram',
+    description:
+      "@erensezen48",
+    href: 'https://www.instagram.com/erensezen48/',
+    icon: ['fas', 'instagram'],
   }
 ]
