@@ -13,7 +13,7 @@ export const ProjectData: Project[] = [
     description:
       "you met this boy % i work on c#, c++, async, js, php % i write code and it brings money",
     href: 'https://github.com/spatz1337/spatz',
-    icon: ['fas', 'github-square'],
+    icon: ['fas', 'wifi'],
   },
   {
     title: 'Spotify',
@@ -27,6 +27,6 @@ export const ProjectData: Project[] = [
     description:
       "@erensezen48",
     href: 'https://www.instagram.com/erensezen48/',
-    icon: ['fas', 'instagram'],
+    icon: ['fas', 'home'],
   }
 ]
