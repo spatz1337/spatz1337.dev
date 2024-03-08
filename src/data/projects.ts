@@ -9,9 +9,9 @@ export interface Project {
 
 export const ProjectData: Project[] = [
   {
-    title: 'erensezen.com.tr',
+    title: 'yigitozel.com.tr',
     description:
-      "you met this boy % i work on c#, c++, async, js, php % i write code and it brings money",
+      "you meet this boy % i work on c#, c++, async, js, php % i write code and it brings money",
     href: 'https://github.com/nyrezzq',
     icon: ['fas', 'wifi'],
   },
