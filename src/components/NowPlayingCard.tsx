@@ -7,14 +7,14 @@ import SongImage from '@public/img/song.webp'
 const { NEXT_PUBLIC_LASTFM_API_KEY } = process.env
 
 export const NowPlayingCard = () => {
-  const lastFM = useLastFM("spatz1337","fe1dab68ce0acac927449b112dd9c455",5e3,"large")
+  const lastFM = useLastFM("nyrezz","fe1dab68ce0acac927449b112dd9c455",5e3,"large")
 
   if (['connecting', 'error'].includes(lastFM.status)) return null
 
   return (
     <FadeIn>
       <a
-        href={lastFM.status === 'playing' ? lastFM.song.url : 'https://last.fm/user/spatz1337'}
+        href={lastFM.status === 'playing' ? lastFM.song.url : 'https://last.fm/user/nyrezz'}
         rel="noopener noreferrer"
         target="_blank"
         className="focus:outline-none transition duration-300 ease-in-out transform hover:scale-105 p-3 rounded-md border border-gray-800 shadow flex flex-row max-w-sm"
