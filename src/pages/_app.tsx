@@ -17,10 +17,10 @@ const App = ({ Component, pageProps }: AppProps) => {
         <Toaster position="bottom-left" />
         <div className="flex flex-col min-h-screen">
           <div id="particle-container">
-            <div className=""></div>
-            <div className=""></div>
-            <div className=""></div>
-            <div className=""></div>
+            <div className="particle"></div>
+            <div className="particle"></div>
+            <div className="particle"></div>
+            <div className="particle"></div>
             <div className=""></div>
             <div className=""></div>
             <div className=""></div>
