@@ -18,12 +18,12 @@ export const RouteData: Route[] = [
     href: '/projects',
   },
   {
-    name: 'eren',
-    href: '/eren',
+    name: 'yigit',
+    href: '/yigit',
   },
   {
     name: 'donate',
-    href: 'https://eren.business',
+    href: 'https://yigitozel.xyz',
     type: 'dropdown',
   },
 ]
