@@ -12,21 +12,21 @@ export const ProjectData: Project[] = [
     title: 'erensezen.com.tr',
     description:
       "you met this boy % i work on c#, c++, async, js, php % i write code and it brings money",
-    href: 'https://github.com/spatz1337/spatz',
+    href: 'https://github.com/nyrezzq',
     icon: ['fas', 'wifi'],
   },
   {
     title: 'Spotify',
     description:
-      "spotify artist page",
-    href: 'https://open.spotify.com/artist/281tNutqcHbRPVf1qEjeAR?si=b10da26933424969',
+      "spotify personal acc",
+    href: 'https://open.spotify.com/user/3157aaso6e7uctlnnwm2xy7yrjpm?si=e31f37fd5ed748fe',
     icon: ['fas', 'music'],
   },
    {
     title: 'Instagram',
     description:
-      "@erensezen48",
-    href: 'https://www.instagram.com/erensezen48/',
+      "@yigitmvq",
+    href: 'https://www.instagram.com/yigitmvq/',
     icon: ['fas', 'home'],
   }
 ]
