@@ -44,11 +44,11 @@ const Home = () => {
 
   return (
     <>
-      <a rel="me" href="https://instagram.com/erennszn" style={{"display": "none"}}></a>
-      <GenericMeta title="Eren Sezen" description="Cyber Sec# and Software Developer from Turkey." />
+      <a rel="me" href="https://instagram.com/yigitmvq" style={{"display": "none"}}></a>
+      <GenericMeta title="Yiğit Özel" description="Cyber Sec# and Software Developer from Turkey." />
 
       <MainLayout margin={false}>
-        <h1 className="text-6xl font-bold">Eren</h1>
+        <h1 className="text-6xl font-bold">Yiğit</h1>
         <p className="text-lg text-gray-600 dark:text-gray-400 max-w-sm mt-2">
           Cyber Sec# and Software Developer from Turkey.
         </p>
