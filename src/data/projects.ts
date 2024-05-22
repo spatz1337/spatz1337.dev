@@ -16,9 +16,9 @@ export const ProjectData: Project[] = [
     icon: ['fas', 'wifi'],
   },
   {
-    title: 'Spotify',
+    title: 'Spotify Artist',
     description:
-      "spotify artist acc",
+      "Nyrezz",
     href: 'https://open.spotify.com/artist/7HqyL38KCvr8Y2k60I9qUz',
     icon: ['fas', 'music'],
   },
