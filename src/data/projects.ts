@@ -18,8 +18,8 @@ export const ProjectData: Project[] = [
   {
     title: 'Spotify',
     description:
-      "spotify personal acc",
-    href: 'https://open.spotify.com/user/3157aaso6e7uctlnnwm2xy7yrjpm?si=e31f37fd5ed748fe',
+      "spotify artist acc",
+    href: 'https://open.spotify.com/artist/7HqyL38KCvr8Y2k60I9qUz',
     icon: ['fas', 'music'],
   },
    {
