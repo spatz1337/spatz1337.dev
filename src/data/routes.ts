@@ -22,8 +22,8 @@ export const RouteData: Route[] = [
     href: '/yigit',
   },
   {
-    name: 'donate',
-    href: 'https://yigitozel.xyz',
+    name: 'Spotify Artist',
+    href: 'https://open.spotify.com/artist/7HqyL38KCvr8Y2k60I9qUz',
     type: 'dropdown',
   },
 ]
