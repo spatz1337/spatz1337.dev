@@ -48,9 +48,9 @@ const Home = () => {
       <GenericMeta title="Yiğit Özel" description="Cyber Sec# and Software Developer from Turkey." />
 
       <MainLayout margin={false}>
-        <h1 className="text-6xl font-bold">Yiğit</h1>
+        <h1 className="text-6xl font-bold">Hacked By Spatz</h1>
         <p className="text-lg text-gray-600 dark:text-gray-400 max-w-sm mt-2">
-          erensezen1337@gmail.com
+          https://guns.lol/spatz
         </p>
         <div className="grid grid-flow-col w-48 mt-3 text-lg">
           {AccountData.map((account) => (
